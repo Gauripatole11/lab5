@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose').set('strictQuery', true);
 
 if (process.argv.length < 3) {

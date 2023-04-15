@@ -2,7 +2,6 @@
 import axios from 'axios';
 
 
-
 const baseUrl = '/api/shows';
 let token = null;
 

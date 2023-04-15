@@ -6,7 +6,6 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import Show from './Show';
 //import userEvent from '@testing-library/user-event';
 
-
 // 5.13: Watchlist tests, step1
 test('renders Show', async() => {
     const show = {

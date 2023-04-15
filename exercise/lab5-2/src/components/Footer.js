@@ -1,4 +1,3 @@
-
 const Footer = () => {
     const footerStyle = {
         marginTop: 30,

@@ -92,6 +92,7 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
 import Reccomendshow from './Reccomendshow';
+
 describe('Recommend', () => {
     test('calls the event handler with the right details when a new show is added', () => {
         const shows = [];
