@@ -1,10 +1,6 @@
 /* eslint-disable no-undef */
 
 
-
-
-
-
 // describe('template spec', () => {
 //     beforeEach('login first',function(){
 //         cy.visit('http://localhost:3000');
