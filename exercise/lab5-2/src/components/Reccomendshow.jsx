@@ -16,7 +16,7 @@ const Reccomendshow = ({ shows,setShows,setErrorMessage,recommendform,setrecomme
     // const [loginvisible, setloginvisible] = useState(true);
     // const [recommendform, setrecommendform] = useState(false)
 
-    const addshow = event => {
+    const addshow = addshows || (event => {
         event.preventDefault();
         const taskObject = {
             title: newShowTitle,
@@ -48,11 +48,11 @@ const Reccomendshow = ({ shows,setShows,setErrorMessage,recommendform,setrecomme
                 }, 5000);
 
             });
-    };
+    });
 
     return (
         <div>
-            <form onSubmit={addshows} style={{ display:'flex-row',margin:'10px',padding:'10px' }}>
+            <form onSubmit={addshow} style={{ display:'flex-row',margin:'10px',padding:'10px' }}>
                 <input
                     id='showtitle'
                     name='showtitle'

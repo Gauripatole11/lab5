@@ -140,7 +140,7 @@ describe('Recommend', () => {
             target: { value: '100' },
         });
 
-        fireEvent.change(recommenderInput, {arget: { value: '642fdc06f5ac5c49820326bd' },
+        fireEvent.change(recommenderInput, { arget: { value: '642fdc06f5ac5c49820326bd' },
         });
 
         fireEvent.submit(form);

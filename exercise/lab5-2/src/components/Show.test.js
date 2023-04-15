@@ -6,6 +6,23 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import Show from './Show';
 //import userEvent from '@testing-library/user-event';
 
+
+// test case a show can be liked
+// it('A show can be liked', function() {
+//     // Find and click on the show to go to its details page
+//     const showElement = app.findShowElement(showTitle);
+//     showElement.click();
+//
+//     // Click on the like button
+//     const likeButton = app.getLikeButton();
+//     likeButton.click();
+//
+//     // Check that the like button is now filled and the show is in the user's liked shows list
+//     expect(likeButton).toHaveClass("filled");
+//     expect(user.getLikedShows()).toContain(showTitle);
+// });
+
+
 // 5.13: Watchlist tests, step1
 test('renders Show', async() => {
     const show = {
